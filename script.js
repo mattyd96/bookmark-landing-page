@@ -5,12 +5,14 @@ function toggleNav() {
         document.getElementById("hamburger").src = "images/icon-close.svg";
         document.getElementById("logo").src = "images/logo-bookmark-mobile-a.svg";
         document.getElementsByClassName("images")[0].classList.add("mobile-nav-active");
-        document.getElementsByClassName("mobile-browser-settings")[0].style.overflowY = "hidden";
+        document.getElementsByClassName("container")[0].style.height = "100vh";
+        document.getElementsByClassName("container")[0].style.overflowY = "hidden";
     } else {
         document.getElementById("hamburger").src = "images/icon-hamburger.svg";
         document.getElementById("logo").src = "images/logo-bookmark.svg";
         document.getElementsByClassName("images")[0].classList.remove("mobile-nav-active");
-        document.getElementsByClassName("mobile-browser-settings")[0].style.overflowY = "scroll";
+        document.getElementsByClassName("container")[0].style.height = "auto";
+        document.getElementsByClassName("container")[0].style.overflowY = "scroll";
     }
     
 }
