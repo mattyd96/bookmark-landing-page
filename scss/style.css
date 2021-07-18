@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
-body {
+.mobile-browser-settings {
   margin: 0;
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
@@ -9,50 +9,50 @@ body {
   margin: auto;
 }
 
-body h1, body h2, body h3 {
+.mobile-browser-settings h1, .mobile-browser-settings h2, .mobile-browser-settings h3 {
   color: #252b46;
 }
 
-body p {
+.mobile-browser-settings p {
   line-height: 1.7rem;
 }
 
-body ul {
+.mobile-browser-settings ul {
   list-style: none;
   margin: 0;
 }
 
-body li:hover {
+.mobile-browser-settings li:hover {
   color: #fa5757;
   cursor: pointer;
 }
 
-body a {
+.mobile-browser-settings a {
   color: #252b46;
   text-decoration: none;
 }
 
-body a:hover {
+.mobile-browser-settings a:hover {
   color: #fa5757;
 }
 
-body button {
+.mobile-browser-settings button {
   border-style: none;
   border-radius: .25rem;
   font-family: 'Rubik', sans-serif;
 }
 
-body button:hover {
+.mobile-browser-settings button:hover {
   cursor: pointer;
 }
 
-body .sh-text {
+.mobile-browser-settings .sh-text {
   text-align: center;
   max-width: 33.5rem;
   margin: auto;
 }
 
-body .sh-text h2 {
+.mobile-browser-settings .sh-text h2 {
   font-weight: 500;
   font-size: 1.9rem;
 }
