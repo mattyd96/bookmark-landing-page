@@ -14,256 +14,254 @@
 
 <body>
   <div class="container">
+    <nav class="main-nav">
+      <ul id="nav-logo-toggle">
+        <li><a href="#"><img src="images/logo-bookmark.svg" alt="" id="logo"></a></li>
+        <li id="mobile-nav-toggle" onclick="toggleNav()"><img src="images/icon-hamburger.svg" alt="menu-toggle" id="hamburger"></li>
+      </ul>
 
-  
-  <nav class="main-nav">
-    <ul id="nav-logo-toggle">
-      <li><a href="#"><img src="images/logo-bookmark.svg" alt="" id="logo"></a></li>
-      <li id="mobile-nav-toggle" onclick="toggleNav()"><img src="images/icon-hamburger.svg" alt="menu-toggle" id="hamburger"></li>
-    </ul>
-    
-    <ul class="links">
-      <li><a href="#">FEATURES</a></li>
-      <li><a href="#">PRICING</a></li>
-      <li><a href="#">CONTACT</a></li>
-      <li class="login"><button disabled="disabled">LOGIN</button></li>
-    </ul>
-    <ul class="social">
-      <li><img src="images/icon-facebook.svg" alt=""></li>
-      <li><img src="images/icon-twitter.svg" alt=""></li>
-    </ul>
-  </nav>
-  <header>
-    <article>
-      <h1>A Simple Bookmark Manager</h1>
-      <p>
-        A clean and simple interface to organize your favourite websites. Open a new 
-        browser tab and see your sites load instantly. Try it for free.
-      </p>
-      <div class="buttons">
-        <button class="chrome">Get it on Chrome</button>
-        <button class="firefox">Get it on Firefox</button>
-      </div>
-    </article> 
-    <div class="images">
-      <img src="images/illustration-hero.svg" alt="homescreen image" class="hero-image">
-      <div class="blue-bg-r"></div>
-    </div> 
-  </header>
-  <main>
-    <section class="features">
-      <div class="sh-text">
-        <h2>Features</h2>
+      <ul class="links">
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">PRICING</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li class="login"><button disabled="disabled">LOGIN</button></li>
+      </ul>
+      <ul class="social">
+        <li><img src="images/icon-facebook.svg" alt=""></li>
+        <li><img src="images/icon-twitter.svg" alt=""></li>
+      </ul>
+    </nav>
+    <header>
+      <article>
+        <h1>A Simple Bookmark Manager</h1>
         <p>
-          Our aim is to make it quick and easy for you to access your favourite websites. 
-          Your bookmarks sync between your devices so you can access them on the go.
+          A clean and simple interface to organize your favourite websites. Open a new 
+          browser tab and see your sites load instantly. Try it for free.
         </p>
-      </div>
-      
-      <div class="toggle">
-        <p class="tgls selected" id="bookmark-toggle" onclick="slide('bookmark'), toggleTab('bookmark', '1')">Simple Bookmarking</p>
-        <p class="tgls" id="speedy-toggle" onclick="slide('speedy'), toggleTab('speedy', '2')">Speedy Searching</p>
-        <p class="tgls" id="sharing-toggle" onclick="slide('sharing'), toggleTab('sharing', '3')">Easy Sharing</p>
-        <div class="moving-underline move-bookmark"></div>
-      </div>
-
-      <div class="mobile-toggle">
-        <div class="mobile-tab">
-          <p class="tglm" id="bookmark-toggle-m" onclick="showUnderline('bookmark'), toggleTab('bookmark', '1')">Simple Bookmarking</p>
-          <div class="underline-mobile underline-bookmark"></div>
+        <div class="buttons">
+          <button class="chrome">Get it on Chrome</button>
+          <button class="firefox">Get it on Firefox</button>
         </div>
-        <div class="mobile-tab">
-          <p class="tglm" id="speedy-toggle-m" onclick="showUnderline('speedy'), toggleTab('speedy', '2')">Speedy Searching</p>
-          <div class="underline-mobile underline-speedy"></div>
-        </div>
-        <div class="mobile-tab">
-          <p class="tglm" id="sharing-toggle-m" onclick="showUnderline('sharing'), toggleTab('sharing', '3')">Easy Sharing</p>
-        <div class="underline-mobile underline-sharing"></div>
-        </div>
-      </div>
-
-      <div class="tabs">
-        <div class="images">
-          <img src="images/illustration-features-tab-1.svg" alt="homescreen image" id="tab-image">
-          <div class="blue-bg-l"></div>
-        </div> 
-        <article class="tab" id="bookmark">
-          <h3>Bookmark in one click</h3>
+      </article> 
+      <div class="images">
+        <img src="images/illustration-hero.svg" alt="homescreen image" class="hero-image">
+        <div class="blue-bg-r"></div>
+      </div> 
+    </header>
+    <main>
+      <section class="features">
+        <div class="sh-text">
+          <h2>Features</h2>
           <p>
-            Organize your bookmarks however you like. Our simple drag-and-drop interface 
-            gives you complete control over how you manage your favourite sites.
+            Our aim is to make it quick and easy for you to access your favourite websites. 
+            Your bookmarks sync between your devices so you can access them on the go.
           </p>
-          <button>More Info</button>
-        </article>
-        <article class="tab" id="speedy">
-          <h3>Intelligent search</h3>
-          <p>
-            Our powerful search feature will help you find saved sites in no time at all. 
-            No need to trawl through all of your bookmarks.
-          </p>
-          <button>More Info</button>
-        </article>
-        <article class="tab" id="sharing">
-          <h3>Share your bookmarks</h3>
-          <p>
-            Easily share your bookmarks and collections with others. Create a shareable 
-            link that you can send at the click of a button.
-          </p>
-          <button>More Info</button>
-        </article> 
-      </div>
-    </section>
+        </div>
 
-    <section class="extensions">
-      <div class="sh-text">
-        <h2>Download the extension</h2>
-        <p>
-          We’ve got more browsers in the pipeline. Please do let us know if you’ve 
-          got a favourite you’d like us to prioritize.
-        </p>
-      </div>
-      <div class="extension-cards">
-        <article class="card" id="chrome">
-          <div class="top">
-            <img src="images/logo-chrome.svg" alt="chrome-logo">
-            <h3>Add to Chrome</h3>
-            <p>Minimum version 62</p>
-          </div>
-          <img src="images/bg-dots.svg" alt="">
-          <div class="install-btn">
-            <button disabled="disabled">Add & Install Extension</button>
-          </div>
-        </article>
-        <article class="card" id="firefox">
-          <div class="top">
-            <img src="images/logo-firefox.svg" alt="chrome-logo">
-            <h3>Add to Firefox</h3>
-            <p>Minimum version 55</p>
-          </div>
-          <img src="images/bg-dots.svg" alt="">
-          <div class="install-btn">
-            <button disabled="disabled">Add & Install Extension</button>
-          </div>
-        </article>
-        <article class="card" id="opera">
-          <div class="top">
-            <img src="images/logo-opera.svg" alt="chrome-logo">
-            <h3>Add to Opera</h3>
-            <p>Minimum version 46</p>
-          </div>
-          <img src="images/bg-dots.svg" alt="">
-          <div class="install-btn">
-            <button disabled="disabled">Add & Install Extension</button>
-          </div>
-        </article>
-      </div>
-    </section>
+        <div class="toggle">
+          <p class="tgls selected" id="bookmark-toggle" onclick="slide('bookmark'), toggleTab('bookmark', '1')">Simple Bookmarking</p>
+          <p class="tgls" id="speedy-toggle" onclick="slide('speedy'), toggleTab('speedy', '2')">Speedy Searching</p>
+          <p class="tgls" id="sharing-toggle" onclick="slide('sharing'), toggleTab('sharing', '3')">Easy Sharing</p>
+          <div class="moving-underline move-bookmark"></div>
+        </div>
 
-    <section class="questions">
-      <div class="sh-text">
-        <h2>Frequently Asked Questions</h2>
-        <p>
-          Here are some of our FAQs. If you have any other questions you’d like 
-          answered please feel free to email us.
-        </p>
-      </div>
-      <div class="accordion">
-        <!-- question 1 -->
-        <div class="a-card">
-          <div class="question" id="q1" onclick="toggleAccordion('a1','icon1')">
-            <h3>What is Bookmark?</h3>
-            <img src="images/icon-arrow.svg" alt="arrow" class="arrow" id="icon1">
+        <div class="mobile-toggle">
+          <div class="mobile-tab">
+            <p class="tglm" id="bookmark-toggle-m" onclick="showUnderline('bookmark'), toggleTab('bookmark', '1')">Simple Bookmarking</p>
+            <div class="underline-mobile underline-bookmark"></div>
           </div>
-          <div class="answer" id="a1">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
-              justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
-            </p>
+          <div class="mobile-tab">
+            <p class="tglm" id="speedy-toggle-m" onclick="showUnderline('speedy'), toggleTab('speedy', '2')">Speedy Searching</p>
+            <div class="underline-mobile underline-speedy"></div>
+          </div>
+          <div class="mobile-tab">
+            <p class="tglm" id="sharing-toggle-m" onclick="showUnderline('sharing'), toggleTab('sharing', '3')">Easy Sharing</p>
+          <div class="underline-mobile underline-sharing"></div>
           </div>
         </div>
-        <!-- question 2 -->
-        <div class="a-card">
-          <div class="question" id="q2" onclick="toggleAccordion('a2','icon2')">
-            <h3>How can I request a new browser?</h3>
-            <img src="images/icon-arrow.svg" alt="arrow" class="arrow" id="icon2">
-          </div>
-          <div class="answer" id="a2">
-            <p>
-              Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
-              Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
-              ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
-              Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
-            </p>
-          </div>
-        </div>
-        <!-- question 3 -->
-        <div class="a-card">
-          <div class="question" id="q3" onclick="toggleAccordion('a3','icon3')">
-            <h3>Is there a mobile app?</h3>
-            <img src="images/icon-arrow.svg" alt="arrow" class="arrow" id="icon3">
-          </div>
-          <div class="answer" id="a3">
-            <p>
-              Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
-              urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
-              sollicitudin ex et ultricies bibendum.
-            </p>
-          </div>
-        </div>
-        <!-- question 4 -->
-        <div class="a-card">
-          <div class="question" id="q4" onclick="toggleAccordion('a4','icon4')">
-            <h3>What about other Chromium browsers?</h3>
-            <img src="images/icon-arrow.svg" alt="arrow" class="arrow" id="icon4">
-          </div>
-          <div class="answer" id="a4">
-            <p>
-              Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
-              vitae neque eget nisl gravida pellentesque non ut velit.
-            </p>
-          </div>
-        </div>
-        <!-- more info button -->
-        <div class="info-btn">
-          <button>More Info</button>
-        </div>
-      </div>
-    </section>
 
-    <section class="contact">
-      <div class="text">
-        <p>35,000+ ALREADY JOINED</p>
-        <h2>Stay up-to-date with what we’re doing</h2>
-      </div>
-      <form class="email-form" id="email-form">
-        <div class="input ">
-          <div class="txt-area" id="txt-area">
-            <input type="text" placeholder="Enter your email address" name="email" id="email" aria-label="email">
-            <img src="images/icon-error.svg" alt="" id="error-icon">
-          </div>
-          <div class="error" id="error">
-            <p>whoops, make sure it's an email</p>
+        <div class="tabs">
+          <div class="images">
+            <img src="images/illustration-features-tab-1.svg" alt="homescreen image" id="tab-image">
+            <div class="blue-bg-l"></div>
           </div> 
+          <article class="tab" id="bookmark">
+            <h3>Bookmark in one click</h3>
+            <p>
+              Organize your bookmarks however you like. Our simple drag-and-drop interface 
+              gives you complete control over how you manage your favourite sites.
+            </p>
+            <button>More Info</button>
+          </article>
+          <article class="tab" id="speedy">
+            <h3>Intelligent search</h3>
+            <p>
+              Our powerful search feature will help you find saved sites in no time at all. 
+              No need to trawl through all of your bookmarks.
+            </p>
+            <button>More Info</button>
+          </article>
+          <article class="tab" id="sharing">
+            <h3>Share your bookmarks</h3>
+            <p>
+              Easily share your bookmarks and collections with others. Create a shareable 
+              link that you can send at the click of a button.
+            </p>
+            <button>More Info</button>
+          </article> 
         </div>
-        <button type="submit">Contact Us</button>
-      </form>
-    </section>
+      </section>
 
-    <footer>
-      <nav>
-        <ul class="footer-links">
-          <li class="logo"><img src="images/logo-bookmark-footer.svg" alt=""></li>
-          <li class="margin">FEATURES</li>
-          <li class="margin">PRICING</li>
-          <li class="margin">CONTACT</li>
-        </ul>
-        <ul class="icons">
-          <li class="margin icon"><a href="#"><img src="images/icon-facebook.svg" alt=""></a></li>
-          <li class="icon"><a href="#"><img src="images/icon-twitter.svg" alt=""></a></li>
-        </ul>
-      </nav>
-    </footer>
-  </main>
+      <section class="extensions">
+        <div class="sh-text">
+          <h2>Download the extension</h2>
+          <p>
+            We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+            got a favourite you’d like us to prioritize.
+          </p>
+        </div>
+        <div class="extension-cards">
+          <article class="card" id="chrome">
+            <div class="top">
+              <img src="images/logo-chrome.svg" alt="chrome-logo">
+              <h3>Add to Chrome</h3>
+              <p>Minimum version 62</p>
+            </div>
+            <img src="images/bg-dots.svg" alt="">
+            <div class="install-btn">
+              <button disabled="disabled">Add & Install Extension</button>
+            </div>
+          </article>
+          <article class="card" id="firefox">
+            <div class="top">
+              <img src="images/logo-firefox.svg" alt="chrome-logo">
+              <h3>Add to Firefox</h3>
+              <p>Minimum version 55</p>
+            </div>
+            <img src="images/bg-dots.svg" alt="">
+            <div class="install-btn">
+              <button disabled="disabled">Add & Install Extension</button>
+            </div>
+          </article>
+          <article class="card" id="opera">
+            <div class="top">
+              <img src="images/logo-opera.svg" alt="chrome-logo">
+              <h3>Add to Opera</h3>
+              <p>Minimum version 46</p>
+            </div>
+            <img src="images/bg-dots.svg" alt="">
+            <div class="install-btn">
+              <button disabled="disabled">Add & Install Extension</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="questions">
+        <div class="sh-text">
+          <h2>Frequently Asked Questions</h2>
+          <p>
+            Here are some of our FAQs. If you have any other questions you’d like 
+            answered please feel free to email us.
+          </p>
+        </div>
+        <div class="accordion">
+          <!-- question 1 -->
+          <div class="a-card">
+            <div class="question" id="q1" onclick="toggleAccordion('a1','icon1')">
+              <h3>What is Bookmark?</h3>
+              <img src="images/icon-arrow.svg" alt="arrow" class="arrow" id="icon1">
+            </div>
+            <div class="answer" id="a1">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+                justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+              </p>
+            </div>
+          </div>
+          <!-- question 2 -->
+          <div class="a-card">
+            <div class="question" id="q2" onclick="toggleAccordion('a2','icon2')">
+              <h3>How can I request a new browser?</h3>
+              <img src="images/icon-arrow.svg" alt="arrow" class="arrow" id="icon2">
+            </div>
+            <div class="answer" id="a2">
+              <p>
+                Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+                Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+                ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+                Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+              </p>
+            </div>
+          </div>
+          <!-- question 3 -->
+          <div class="a-card">
+            <div class="question" id="q3" onclick="toggleAccordion('a3','icon3')">
+              <h3>Is there a mobile app?</h3>
+              <img src="images/icon-arrow.svg" alt="arrow" class="arrow" id="icon3">
+            </div>
+            <div class="answer" id="a3">
+              <p>
+                Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+                urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+                sollicitudin ex et ultricies bibendum.
+              </p>
+            </div>
+          </div>
+          <!-- question 4 -->
+          <div class="a-card">
+            <div class="question" id="q4" onclick="toggleAccordion('a4','icon4')">
+              <h3>What about other Chromium browsers?</h3>
+              <img src="images/icon-arrow.svg" alt="arrow" class="arrow" id="icon4">
+            </div>
+            <div class="answer" id="a4">
+              <p>
+                Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+                vitae neque eget nisl gravida pellentesque non ut velit.
+              </p>
+            </div>
+          </div>
+          <!-- more info button -->
+          <div class="info-btn">
+            <button>More Info</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="text">
+          <p>35,000+ ALREADY JOINED</p>
+          <h2>Stay up-to-date with what we’re doing</h2>
+        </div>
+        <form class="email-form" id="email-form">
+          <div class="input ">
+            <div class="txt-area" id="txt-area">
+              <input type="text" placeholder="Enter your email address" name="email" id="email" aria-label="email">
+              <img src="images/icon-error.svg" alt="" id="error-icon">
+            </div>
+            <div class="error" id="error">
+              <p>whoops, make sure it's an email</p>
+            </div> 
+          </div>
+          <button type="submit">Contact Us</button>
+        </form>
+      </section>
+
+      <footer>
+        <nav>
+          <ul class="footer-links">
+            <li class="logo"><img src="images/logo-bookmark-footer.svg" alt=""></li>
+            <li class="margin">FEATURES</li>
+            <li class="margin">PRICING</li>
+            <li class="margin">CONTACT</li>
+          </ul>
+          <ul class="icons">
+            <li class="margin icon"><a href="#"><img src="images/icon-facebook.svg" alt=""></a></li>
+            <li class="icon"><a href="#"><img src="images/icon-twitter.svg" alt=""></a></li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
   </div>
   <script src="script.js"></script>
 </body>
