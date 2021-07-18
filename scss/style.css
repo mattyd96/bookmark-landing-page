@@ -226,6 +226,8 @@ header .firefox:hover {
 .features {
   height: 54rem;
   margin-top: 10rem;
+  max-width: 74rem;
+  margin: auto;
 }
 
 .features .mobile-toggle {

@@ -200,6 +200,8 @@ header {
 .features {
     height: 54rem;
     margin-top: 10rem;
+    max-width: 74rem;
+    margin: auto;
 
     .mobile-toggle {
         display: none;   
