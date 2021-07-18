@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
-.mobile-browser-settings {
+body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
@@ -9,52 +9,57 @@
   margin: auto;
 }
 
-.mobile-browser-settings h1, .mobile-browser-settings h2, .mobile-browser-settings h3 {
+body h1, body h2, body h3 {
   color: #252b46;
 }
 
-.mobile-browser-settings p {
+body p {
   line-height: 1.7rem;
 }
 
-.mobile-browser-settings ul {
+body ul {
   list-style: none;
   margin: 0;
 }
 
-.mobile-browser-settings li:hover {
+body li:hover {
   color: #fa5757;
   cursor: pointer;
 }
 
-.mobile-browser-settings a {
+body a {
   color: #252b46;
   text-decoration: none;
 }
 
-.mobile-browser-settings a:hover {
+body a:hover {
   color: #fa5757;
 }
 
-.mobile-browser-settings button {
+body button {
   border-style: none;
   border-radius: .25rem;
   font-family: 'Rubik', sans-serif;
 }
 
-.mobile-browser-settings button:hover {
+body button:hover {
   cursor: pointer;
 }
 
-.mobile-browser-settings .sh-text {
+body .sh-text {
   text-align: center;
   max-width: 33.5rem;
   margin: auto;
 }
 
-.mobile-browser-settings .sh-text h2 {
+body .sh-text h2 {
   font-weight: 500;
   font-size: 1.9rem;
+}
+
+body.modal-open {
+  overflow-x: hidden;
+  position: fixed;
 }
 
 .main-nav {

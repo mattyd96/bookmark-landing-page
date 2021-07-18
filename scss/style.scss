@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
-.mobile-browser-settings {
+body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
@@ -56,6 +56,11 @@
             font-size: 1.9rem;
         }
     }
+}
+
+body.modal-open {
+    overflow-x: hidden;
+    position: fixed;
 }
 
 .main-nav {
