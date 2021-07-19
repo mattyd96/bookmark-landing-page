@@ -535,18 +535,15 @@ header .firefox:hover {
 .contact {
   text-align: center;
   width: 100vw;
-  left: 0;
   background-color: #5368df;
-  position: absolute;
   color: #fff;
   height: 21rem;
 }
 
 .contact .text {
   margin: auto;
-  margin-top: 4rem;
   max-width: 32rem;
-  padding: 0 2rem;
+  padding: 3rem 2rem 0 2rem;
 }
 
 .contact .text p {
@@ -662,10 +659,7 @@ header .firefox:hover {
 }
 
 footer {
-  position: absolute;
-  left: 0;
   width: 100vw;
-  margin-top: 21rem;
   background-color: #252b46;
   padding: 1.5rem 0;
   font-size: .8rem;
@@ -979,7 +973,6 @@ footer .margin {
   footer {
     padding: 2rem 0;
     font-size: 1.05rem;
-    margin-top: 24rem;
   }
   footer nav {
     -webkit-box-orient: vertical;

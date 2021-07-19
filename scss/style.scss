@@ -460,17 +460,14 @@ header {
 .contact {
     text-align: center;
     width: 100vw;
-    left: 0;
     background-color: hsl(231, 69%, 60%);
-    position: absolute;
     color: #fff;
     height: 21rem;
 
     .text {
         margin: auto;
-        margin-top: 4rem;
         max-width: 32rem;
-        padding: 0 2rem;
+        padding: 3rem 2rem 0 2rem;
 
         p {
             font-size: .9rem;
@@ -575,10 +572,7 @@ header {
 }
 
 footer {
-    position: absolute;
-    left: 0;
     width: 100vw;
-    margin-top: 21rem;
     background-color: hsl(229, 31%, 21%);
     padding: 1.5rem 0;
     font-size: .8rem;
@@ -879,7 +873,6 @@ footer {
     footer {
         padding: 2rem 0;
         font-size: 1.05rem;
-        margin-top: 24rem;
     
         nav {
             flex-direction: column;

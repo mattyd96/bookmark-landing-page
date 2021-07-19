@@ -13,13 +13,14 @@
 
 
 <body>
+  <!-- container to manage overflow on mobile devices-->
   <div class="container">
+    <!-- Navigation -->
     <nav class="main-nav">
       <ul id="nav-logo-toggle">
         <li><a href="#"><img src="images/logo-bookmark.svg" alt="" id="logo"></a></li>
         <li id="mobile-nav-toggle" onclick="toggleNav()"><img src="images/icon-hamburger.svg" alt="menu-toggle" id="hamburger"></li>
       </ul>
-
       <ul class="links">
         <li><a href="#">FEATURES</a></li>
         <li><a href="#">PRICING</a></li>
@@ -31,6 +32,7 @@
         <li><img src="images/icon-twitter.svg" alt=""></li>
       </ul>
     </nav>
+    <!-- Header -->
     <header>
       <article>
         <h1>A Simple Bookmark Manager</h1>
@@ -48,7 +50,9 @@
         <div class="blue-bg-r"></div>
       </div> 
     </header>
+
     <main>
+      <!-- Features -->
       <section class="features">
         <div class="sh-text">
           <h2>Features</h2>
@@ -64,7 +68,7 @@
           <p class="tgls" id="sharing-toggle" onclick="slide('sharing'), toggleTab('sharing', '3')">Easy Sharing</p>
           <div class="moving-underline move-bookmark"></div>
         </div>
-
+        <!-- Navigation for tabs -->
         <div class="mobile-toggle">
           <div class="mobile-tab">
             <p class="tglm" id="bookmark-toggle-m" onclick="showUnderline('bookmark'), toggleTab('bookmark', '1')">Simple Bookmarking</p>
@@ -79,7 +83,7 @@
           <div class="underline-mobile underline-sharing"></div>
           </div>
         </div>
-
+        <!-- toggled tabs -->
         <div class="tabs">
           <div class="images">
             <img src="images/illustration-features-tab-1.svg" alt="homescreen image" id="tab-image">
@@ -111,7 +115,7 @@
           </article> 
         </div>
       </section>
-
+      <!-- Extensions --> 
       <section class="extensions">
         <div class="sh-text">
           <h2>Download the extension</h2>
@@ -156,7 +160,7 @@
           </article>
         </div>
       </section>
-
+      <!-- Questions accordion -->
       <section class="questions">
         <div class="sh-text">
           <h2>Frequently Asked Questions</h2>
@@ -227,7 +231,7 @@
           </div>
         </div>
       </section>
-
+      <!-- Contact form -->
       <section class="contact">
         <div class="text">
           <p>35,000+ ALREADY JOINED</p>
@@ -246,7 +250,7 @@
           <button type="submit">Contact Us</button>
         </form>
       </section>
-
+      <!-- Footer -->
       <footer>
         <nav>
           <ul class="footer-links">
